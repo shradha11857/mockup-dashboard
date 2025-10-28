@@ -36,6 +36,7 @@ It allows users to select a company and view account details dynamically — bas
 That’s it! 
 
 ## Folder Structure
+
 mockup-dashboard/
 │
 ├── index.html
