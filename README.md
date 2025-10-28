@@ -43,7 +43,7 @@ mockup-dashboard/
 ├── script.js
 └── data.json
 
-👩‍💻 Author
 
+Author
 Shradha Patil
-Frontend Developer (HTML, CSS, JavaScript)
+
