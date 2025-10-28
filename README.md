@@ -1,22 +1,49 @@
-# Mockup Dashboard
+* Description
 
-## Description
-This is a **Stock Broker Mockup Dashboard** built using **HTML, CSS, and JavaScript**.  
-It allows users to select a company and view account details dynamically using data from a mock API (`data.json`).
+This project is a responsive stock broker client mockup dashboard built using HTML, CSS, and JavaScript.
+It allows users to select a company and view account details dynamically — based on data fetched from a mock API file (data.json).
 
----
+* Features
 
-## Features
-- Company selection dropdown  
-- Account dropdown updates automatically  
-- Displays account details dynamically (based on company selected)  
-- Fully responsive design  
-- No hardcoded values — data fetched from API  
+Dropdown to select multiple companies
 
----
+Each company has multiple accounts
 
-##  How to Run the Project
+Displays account details dynamically without hardcoding
 
-### Clone the repository
-```bash
-git clone https://github.com/shradha11857/mockup-dashboard.git
+Fully responsive layout for mobile and desktop
+
+Clean, simple design following the provided Figma file
+
+* Technologies Used
+
+HTML5
+
+CSS3
+
+JavaScript (Fetch API)
+
+* How to Run the Project
+
+Open this repository on GitHub
+
+Click on the Code → Download ZIP option
+
+Extract the ZIP file
+
+Open the index.html file in your browser
+
+That’s it! ✅
+
+📁 Folder Structure
+mockup-dashboard/
+│
+├── index.html
+├── style.css
+├── script.js
+└── data.json
+
+👩‍💻 Author
+
+Shradha Patil
+Frontend Developer (HTML, CSS, JavaScript)
