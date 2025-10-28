@@ -39,7 +39,6 @@ That’s it!
 
 mockup-dashboard/
 
-|
 ├── index.html
 
 ├── style.css
