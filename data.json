@@ -1,0 +1,56 @@
+{
+  "companies": [
+    {
+      "id": "C1",
+      "name": "EscrowStack Pvt Ltd",
+      "accounts": [
+        {
+          "id": "C1-A1",
+          "name": "Escrow - Current A/c 1",
+          "details": "IFSC: ESC001 | Type: Current",
+          "balance": "₹88,888.00",
+          "lastUpdated": "2025-10-27 18:40",
+          "transactions": [
+            { "date": "2025-10-27", "credit": "₹20,000", "balance": "₹88,888.00", "utr": "UTR1001", "accountNo": "XXXX1234" },
+            { "date": "2025-10-26", "credit": "₹5,000", "balance": "₹68,888.00", "utr": "UTR1000", "accountNo": "XXXX1234" }
+          ]
+        },
+        {
+          "id": "C1-A2",
+          "name": "Escrow - Savings A/c 2",
+          "details": "IFSC: ESC002 | Type: Savings",
+          "balance": "₹12,345.00",
+          "lastUpdated": "2025-10-27 10:15",
+          "transactions": [
+            { "date": "2025-10-25", "credit": "₹3,000", "balance": "₹12,345.00", "utr": "UTR2001", "accountNo": "XXXX5678" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "C2",
+      "name": "FinGrow Securities",
+      "accounts": [
+        {
+          "id": "C2-A1",
+          "name": "FinGrow - Trade A/c 1",
+          "details": "IFSC: FIN001 | Type: Trading",
+          "balance": "₹200,000.00",
+          "lastUpdated": "2025-10-27 16:05",
+          "transactions": [
+            { "date": "2025-10-27", "credit": "₹50,000", "balance": "₹200,000.00", "utr": "UTR3001", "accountNo": "XXXX9999" },
+            { "date": "2025-10-26", "credit": "₹10,000", "balance": "₹150,000.00", "utr": "UTR3000", "accountNo": "XXXX9999" }
+          ]
+        },
+        {
+          "id": "C2-A2",
+          "name": "FinGrow - Savings A/c 2",
+          "details": "IFSC: FIN002 | Type: Savings",
+          "balance": "₹5,500.00",
+          "lastUpdated": "2025-10-26 09:00",
+          "transactions": []
+        }
+      ]
+    }
+  ]
+}

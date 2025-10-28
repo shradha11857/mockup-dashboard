@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>EazyPayouts — Loads (Mockup)</title>
+
+  <!-- Google font used in Figma -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="app">
+    <!-- Sidebar -->
+    <aside class="sidebar">
+      <div class="brand">
+        <div class="brand-logo">EP</div>
+        <div class="brand-title">EazyPayouts</div>
+      </div>
+
+      <nav class="nav">
+        <button class="nav-item active">Loads</button>
+        <button class="nav-item">Statements</button>
+        <button class="nav-item">Transactions</button>
+      </nav>
+
+      <div class="sidebar-footer">
+        <small>v1.0</small>
+      </div>
+    </aside>
+
+    <!-- Main content -->
+    <section class="main">
+      <!-- Topbar: Company & Account dropdowns -->
+      <header class="topbar">
+        <div class="topbar-left">
+          <div class="field">
+            <label for="company">Company</label>
+            <select id="company" aria-label="Select company">
+              <option value="">Loading companies...</option>
+            </select>
+          </div>
+
+          <div class="field">
+            <label for="account">Account</label>
+            <select id="account" aria-label="Select account">
+              <option value="">Select company first</option>
+            </select>
+          </div>
+        </div>
+
+        <div class="topbar-right">
+          <div class="user">Hello, <strong>Guest</strong></div>
+        </div>
+      </header>
+
+      <!-- Content area -->
+      <div class="content">
+        <!-- Balance card -->
+        <div class="balance-and-actions">
+          <div class="balance-card">
+            <div class="balance-title">Available Balance</div>
+            <div id="balance" class="balance-amount">—</div>
+            <div id="balance-sub" class="balance-sub">Last updated: —</div>
+          </div>
+        </div>
+
+        <!-- Table / account details -->
+        <div class="panel">
+          <div class="panel-header">
+            <h3 id="account-name">Select an account</h3>
+            <p id="account-info" class="muted">Account details will appear here.</p>
+          </div>
+
+          <div class="table-wrap">
+            <table id="tx-table" class="tx-table" aria-describedby="account-info">
+              <thead>
+                <tr>
+                  <th>Date</th>
+                  <th>Credit</th>
+                  <th>Balance</th>
+                  <th>UTR / RRN</th>
+                  <th>A/c No. / UPI</th>
+                </tr>
+              </thead>
+              <tbody>
+                <!-- rows inserted by JS -->
+              </tbody>
+            </table>
+
+            <div id="no-data" class="no-data" hidden>No transactions to show.</div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
