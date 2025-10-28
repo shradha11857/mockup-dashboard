@@ -38,8 +38,8 @@ That’s it!
 ## Folder Structure
 
 mockup-dashboard/
-
 |
+
 ├── index.html
 
 ├── style.css
