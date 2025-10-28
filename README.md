@@ -48,7 +48,7 @@ mockup-dashboard/
 └── data.json
 
 
-Author
 
+Author
 Shradha Patil
 
