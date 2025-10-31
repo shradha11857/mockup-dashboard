@@ -27,15 +27,16 @@ JavaScript (ES6) – Interactivity and dynamic updates
 
 ## Folder Structure
 mockup-dashboard/
+
 │
-├── index.html        # Main dashboard page
+├── index.html        
 
-├── style.css         # Styling file
+├── style.css         
 
-├── script.js         # Logic for dynamic updates
+├── script.js         
 
 └── assets/
-    └── logo.png      # EazyPayouts logo
+    └── logo.png      
 
 ## How to Run
 
