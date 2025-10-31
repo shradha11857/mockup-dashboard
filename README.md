@@ -28,7 +28,7 @@ JavaScript (ES6) – Interactivity and dynamic updates
 ## Folder Structure
 mockup-dashboard/
 
-│
+
 ├── index.html        
 
 ├── style.css         
@@ -36,6 +36,7 @@ mockup-dashboard/
 ├── script.js         
 
 └── assets/
+
     └── logo.png      
 
 ## How to Run
