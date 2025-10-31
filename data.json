@@ -1,54 +1,92 @@
 {
   "companies": [
     {
-      "id": "C1",
-      "name": "EscrowStack Pvt Ltd",
+      "name": "EazyPayouts",
       "accounts": [
         {
-          "id": "C1-A1",
-          "name": "Escrow - Current A/c 1",
-          "details": "IFSC: ESC001 | Type: Current",
-          "balance": "₹88,888.00",
-          "lastUpdated": "2025-10-27 18:40",
-          "transactions": [
-            { "date": "2025-10-27", "credit": "₹20,000", "balance": "₹88,888.00", "utr": "UTR1001", "accountNo": "XXXX1234" },
-            { "date": "2025-10-26", "credit": "₹5,000", "balance": "₹68,888.00", "utr": "UTR1000", "accountNo": "XXXX1234" }
+          "name": "Account 1",
+          "balance": 8888888888,
+          "loads": [
+            {
+              "date": "07/05/2024 01:04 PM",
+              "credit": 21337,
+              "balance": 21337,
+              "utr": "1000000",
+              "account": "AC0CF7RRUY407QHU"
+            },
+            {
+              "date": "04/05/2024 12:38 PM",
+              "credit": 21337,
+              "balance": 21337,
+              "utr": "CMS4136431811",
+              "account": "0104SLNEFTPL"
+            }
           ]
         },
         {
-          "id": "C1-A2",
-          "name": "Escrow - Savings A/c 2",
-          "details": "IFSC: ESC002 | Type: Savings",
-          "balance": "₹12,345.00",
-          "lastUpdated": "2025-10-27 10:15",
-          "transactions": [
-            { "date": "2025-10-25", "credit": "₹3,000", "balance": "₹12,345.00", "utr": "UTR2001", "accountNo": "XXXX5678" }
+          "name": "Account 2",
+          "balance": 4444444444,
+          "loads": [
+            {
+              "date": "12/04/2024 10:11 AM",
+              "credit": 15000,
+              "balance": 15000,
+              "utr": "CMS4011111444",
+              "account": "ACTB61VM9RR6725C"
+            },
+            {
+              "date": "09/04/2024 03:14 PM",
+              "credit": 9000,
+              "balance": 9000,
+              "utr": "CMS4019655999",
+              "account": "AC0CF7RRUY407QHU"
+            }
           ]
         }
       ]
     },
     {
-      "id": "C2",
-      "name": "FinGrow Securities",
+      "name": "PaySwift",
       "accounts": [
         {
-          "id": "C2-A1",
-          "name": "FinGrow - Trade A/c 1",
-          "details": "IFSC: FIN001 | Type: Trading",
-          "balance": "₹200,000.00",
-          "lastUpdated": "2025-10-27 16:05",
-          "transactions": [
-            { "date": "2025-10-27", "credit": "₹50,000", "balance": "₹200,000.00", "utr": "UTR3001", "accountNo": "XXXX9999" },
-            { "date": "2025-10-26", "credit": "₹10,000", "balance": "₹150,000.00", "utr": "UTR3000", "accountNo": "XXXX9999" }
+          "name": "Account 1",
+          "balance": 2222222222,
+          "loads": [
+            {
+              "date": "01/03/2024 09:04 AM",
+              "credit": 13000,
+              "balance": 13000,
+              "utr": "CMS3008881211",
+              "account": "PSWFTACC001"
+            },
+            {
+              "date": "25/02/2024 02:00 PM",
+              "credit": 17000,
+              "balance": 17000,
+              "utr": "CMS3008884433",
+              "account": "PSWFTACC002"
+            }
           ]
         },
         {
-          "id": "C2-A2",
-          "name": "FinGrow - Savings A/c 2",
-          "details": "IFSC: FIN002 | Type: Savings",
-          "balance": "₹5,500.00",
-          "lastUpdated": "2025-10-26 09:00",
-          "transactions": []
+          "name": "Account 2",
+          "balance": 9999999999,
+          "loads": [
+            {
+              "date": "22/02/2024 10:00 AM",
+              "credit": 40000,
+              "balance": 40000,
+              "utr": "CMS3001112233",
+              "account": "PSWFTACC003"
+            },
+            {
+              "date": "15/02/2024 11:33 AM",
+              "credit": 35000,
+              "balance": 35000,
+              "utr": "CMS3001114455",
+              "account": "PSWFTACC004"
+            }
+          ]
         }
       ]
     }

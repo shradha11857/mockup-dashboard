@@ -1,55 +1,59 @@
-## Description
+ EazyPayouts - Dashboard Mockup
 
-This project is a responsive stock broker client mockup dashboard built using HTML, CSS, and JavaScript.
-It allows users to select a company and view account details dynamically — based on data fetched from a mock API file (data.json).
+This project is a responsive dashboard mockup for EazyPayouts, created as part of the developer assessment for Escrow Stack Pvt. Ltd. The design closely follows the provided Figma reference and includes all required functionalities.
 
-## Features
+## Project Overview
 
-- Dropdown to select multiple companies
+The dashboard displays load data, account balances, and transaction details for multiple companies and accounts.
+Users can switch between companies and accounts using dropdown menus, and the data displayed updates accordingly.
 
-- Each company has multiple accounts
+## Features Implemented
 
-- Displays account details dynamically without hardcoding
+* Follows Figma design layout and styling
+* Sidebar navigation (Loads, Statements, Transactions)
+* Company and Account dropdowns for dynamic data selection
+* Available Balance card with correct currency and format
+* Table displaying load details (Date, Credit, A/c Balance, UTR/RRN, A/c No/UPI)
+* Fully responsive design (works across screen sizes)
+* Clean, minimal UI using HTML, CSS, and JavaScript
 
-- Fully responsive layout for mobile and desktop
+## Tech Stack
 
-- Clean, simple design following the provided Figma file
+HTML5 – Structure and content
 
-## Technologies Used
+CSS3 – Styling and layout
 
-- HTML5
-
-- CSS3
-
-- JavaScript (Fetch API)
-
-## How to Run the Project
-
-- Open this repository on GitHub
-
-- Click on the Code → Download ZIP option
-
-- Extract the ZIP file
-
-- Open the index.html file in your browser
-
-That’s it! 
+JavaScript (ES6) – Interactivity and dynamic updates
 
 ## Folder Structure
-
 mockup-dashboard/
+│
+├── index.html        # Main dashboard page
+├── style.css         # Styling file
+├── script.js         # Logic for dynamic updates
+└── assets/
+    └── logo.png      # EazyPayouts logo
 
-├── index.html
+## How to Run
 
-├── style.css
+Clone this repository or download the ZIP file.
 
-├── script.js
+Open the folder in your code editor (VS Code recommended).
 
-└── data.json
+Run the project locally using the Live Server extension or open index.html directly in your browser.
 
+## Preview
 
+The final dashboard layout matches the EazyPayouts Figma design with:
 
-Author
+White sidebar background
+
+Orange logo with black “EazyPayouts” text below it
+
+Blue highlighted sidebar for active menu
+
+Balance card and data table aligned per Figma
+
+## Developed By
 
 Shradha Patil
-
