@@ -41,23 +41,23 @@ mockup-dashboard/
 
 ## How to Run
 
-Clone this repository or download the ZIP file.
+. Clone this repository or download the ZIP file.
 
-Open the folder in your code editor (VS Code recommended).
+. Open the folder in your code editor (VS Code recommended).
 
-Run the project locally using the Live Server extension or open index.html directly in your browser.
+. Run the project locally using the Live Server extension or open index.html directly in your browser.
 
 ## Preview
 
-The final dashboard layout matches the EazyPayouts Figma design with:
+. The final dashboard layout matches the EazyPayouts Figma design with:
 
-White sidebar background
+. White sidebar background
 
-Orange logo with black “EazyPayouts” text below it
+. Orange logo with black “EazyPayouts” text below it
 
-Blue highlighted sidebar for active menu
+. Blue highlighted sidebar for active menu
 
-Balance card and data table aligned per Figma
+. Balance card and data table aligned per Figma
 
 ## Developed By
 
