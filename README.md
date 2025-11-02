@@ -1,6 +1,6 @@
  ## EazyPayouts - Dashboard Mockup
-
-This project is a responsive dashboard mockup for EazyPayouts, created as part of the developer assessment for Escrow Stack Pvt. Ltd. The design closely follows the provided Figma reference and includes all required functionalities.
+    This project is a responsive dashboard mockup for EazyPayouts, created as part of the developer 
+assessment for Escrow Stack Pvt. Ltd. The design closely follows the provided Figma reference and includes all required functionalities.
 
 ## Project Overview
 
@@ -34,12 +34,12 @@ JavaScript (ES6) – Interactivity and dynamic updates
 ## Folder Structure
 mockup-dashboard/
 
-├── index.html   
-     
-├── style.css  
-       
-├── script.js  
-       
+├── index.html        
+
+├── style.css         
+
+├── script.js         
+
 └── assets/
 
     └── logo.png      
